@@ -1,24 +1,18 @@
-# Climate‑Insurance Heatwaves NYC
+# Heatwave Parametric Insurance Pilot – NYC
 
-**A parametric health‑insurance pilot to deliver rapid payouts in New York City’s most heat‑vulnerable ZIP codes.**
+**Author:** Samia Chaudhry  
+**Program:** B.S. Actuarial Science & Global Health, University of Wisconsin–Madison  
+**Project Date:** July 2025  
 
 ## Overview
-- **Problem:** 525 heat‑related deaths & 3,000+ ER visits per summer cluster in HVI 4–5 neighborhoods with low AC access.
-- **Solution:** Automatic, no‑paperwork payouts triggered by HVI, AC‑lack thresholds, and heat‑index events.
-- **Pilot ZIPs:** Morrisania/East Tremont, Brownsville, Hunts Point/Mott Haven, East Harlem, South Jamaica, University Heights.
+This repository contains the data, code, and visualizations for a **parametric micro‑insurance pilot** designed to protect **New York City’s most heat‑vulnerable neighborhoods** from extreme heat events.  
 
-## Repo Contents
-- `data/` – Cleaned CSVs and data dictionaries  
-- `notebooks/` – Jupyter notebooks for analysis & visualizations  
-- `scripts/` – Data processing and simulation code (Python/R)  
-- `figures/` – Final charts for the proposal  
-- `proposal.pdf` – Full write‑up with Executive Summary, Methods, Findings, and Design  
+The project combines **public health risk data, actuarial modeling, and geospatial climate indicators** to design a **tiered payout system** that delivers **rapid, no‑paperwork relief** to households and community clinics during heatwaves.  
 
-## How to Explore
-1. Browse `proposal.pdf` for the full narrative.  
-2. Look in `notebooks/` to see how each chart was generated.  
-3. Run `scripts/simulate_payouts.py` to experiment with trigger thresholds.
+---
 
-## License & Contact
-Public domain / CC0.  
-Questions or feedback → samia@wisc.edu
+## Key Features
+- **Tiered Parametric Payouts:**  
+  - $25 for 88–92 °F events  
+  - $50 for 92–95 °F events  
+
