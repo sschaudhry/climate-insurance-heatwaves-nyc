@@ -17,6 +17,7 @@ Solution: Automatic, no‑paperwork parametric payouts when defined triggers are
 Pilot: Six ZIP codes targeting the highest‑risk neighborhoods, scaling citywide by 2030.
 
 
+
 Solution Overview:
 
 A parametric health‑insurance product that...
@@ -26,6 +27,7 @@ A parametric health‑insurance product that...
 - Tracks 3‑day rolling heat‑index thresholds calibrated per ZIP.
 
 - Executes instant payouts to households and community organizations when triggers fire.
+  
 
 Tiered Payout Design:
 - $25 per household for moderate heatwaves (88–92°F)
