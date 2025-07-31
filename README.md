@@ -1,4 +1,4 @@
-This project builds a **parametric micro-insurance model** to deliver **rapid, no-paperwork payouts** to NYC’s most heat-vulnerable ZIP codes—where high Heat Vulnerability Index (HVI) scores, low AC access, and low incomes drive disproportionate ER surges and heat-related deaths.
+This project builds a **parametric micro-insurance model** to deliver **rapid, no-paperwork payouts** to NYC’s most heat-vulnerable ZIP codes, where high Heat Vulnerability Index (HVI) scores, low AC access, and low incomes drive disproportionate ER surges and heat-related deaths.
 
 **Key visualizations** illustrate its equity and effectiveness:
 
