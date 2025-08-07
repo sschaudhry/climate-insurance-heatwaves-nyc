@@ -1,42 +1,49 @@
-Parametric Health Insurance for NYC Heatwaves
+# NYC Heat Vulnerability Visualized
 
-New York City faces a growing climate–health emergency, with 525 premature heat‑related deaths each year (DOHMH, 2025) and over 3,000 heat‑related emergency department visits annually (CDC, 2024). These impacts are concentrated in neighborhoods with high Heat Vulnerability Index (HVI) scores, low air‑conditioning access, and lower median incomes. Furthermore showcased through bubble charts, bar charts and tables.
+A student-built data visualization project showing how heat risk, income, race, and A/C access intersect across NYC neighborhoods.
 
+##  About My Project
 
+This project uses publicly available NYC health and demographic data to visualize:
 
-Executive Summary:
+- Neighborhood-level **Heat Vulnerability Index (HVI)**
+- Disparities in **heat-related health outcomes**
+- **Payout fairness** in parametric heat insurance designs
+- A comparative look at **social and demographic vulnerability** in places like Brownsville vs. the Upper East Side
 
-Heat‑Related Mortality & Morbidity: 525 annual premature deaths (DOHMH, 2025) and 3,000+ ER visits (CDC, 2024).
+The goal: make climate risk *visible* and equity-focused through simple charts and tables.
 
-Vulnerable Communities: HVI ≥ 4, AC access < 80%, median household income < $30,000 (DOHMH, 2024; NYC Council, 2025).
+## Visual Outputs
 
+The following visualizations are generated in my code: 
 
-Solution: Automatic, no‑paperwork parametric payouts when defined triggers are met.
+- `hvi_by_neighborhood.png`  
+  *(Bubble chart of HVI vs. A/C access, income, and race)*
+- `health_burden_comparison.png`  
+  *(Bar chart comparing asthma, ER visits, and heat deaths)*
+- `trigger_vs_events.png`  
+  *(How lower temperature triggers increase fairness of parametric payouts)*
+- `demographic_comparison.png`  
+  *(Side-by-side comparison of social vulnerability metrics)*
 
+## How to Run
 
-Pilot: Six ZIP codes targeting the highest‑risk neighborhoods, scaling citywide by 2030.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/nyc-heat-vulnerability.git
+   cd nyc-heat-vulnerability
 
+Dependencies:
+- pandas
+- numpy
+- matplotlib
+- seaborn
 
+Tested in Python 3.9+.
 
-Solution Overview:
+Creator
+Samia Chaudhry, UW–Madison
+Actuarial Science + Global Health
+Sschaudhry@wisc.edu
 
-A parametric health‑insurance product that...
-
-- Monitors neighborhood exposure via HVI and AC access.
-
-- Tracks 3‑day rolling heat‑index thresholds calibrated per ZIP.
-
-- Executes instant payouts to households and community organizations when triggers fire.
-  
-
-Tiered Payout Design:
-- $25 per household for moderate heatwaves (88–92°F)
-
-
-- $50 per household for high heatwaves (92–95°F)
-
-
-- $75 per household for extreme heatwaves (≥95°F)
-
-
-Annual cap: $300 per household
+This project was created as part of a self interest capstone exploring climate risk and social justice in urban settings.
