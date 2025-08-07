@@ -30,8 +30,7 @@ The following visualizations are generated in my code:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/nyc-heat-vulnerability.git
-   cd nyc-heat-vulnerability
+   https://github.com/sschaudhry/climate-insurance-heatwaves-nyc.git 
 
 Dependencies:
 - pandas
