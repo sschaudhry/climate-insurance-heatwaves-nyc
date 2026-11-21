@@ -38,11 +38,9 @@ Dependencies:
 - matplotlib
 - seaborn
 
-Tested in Python 3.9+.
-
 Creator
-Samia Chaudhry, UW–Madison
-Actuarial Science + Global Health
-Sschaudhry@wisc.edu
+Samia Chaudhry, UW–Madison 2026
+RMI + Global Health
+Samia.Chaudhrysc@gmail.com
 
-This project was created as part of a self interest capstone exploring climate risk and social justice in urban settings.
+This project was created as part of a self-interest capstone exploring climate risk and social justice in urban settings.
